@@ -99,7 +99,7 @@ for sp in ('top', 'right'):
     ax1.spines[sp].set_visible(False)
 
 # inset: VDR +/-100 kb zoom
-axI = fig.add_axes([0.108, 0.782, 0.150, 0.125])
+axI = fig.add_axes([0.118, 0.800, 0.140, 0.108])
 z = oa[(oa.base_pair_location >= EQ_POS - 100_000) & (oa.base_pair_location <= EQ_POS + 100_000)]
 axI.axvspan(VDR[0] / 1e6, VDR[1] / 1e6, color=C_VDR, alpha=0.12, lw=0)
 axI.scatter(z.base_pair_location / 1e6, z.mlp, s=1.8, c=C_VDR, alpha=0.85, linewidths=0)
@@ -107,8 +107,8 @@ axI.axhline(-np.log10(5e-8), color='0.35', ls=(0, (5, 3)), lw=0.5)
 axI.set_ylim(0, 8.2)
 axI.set_xlim((EQ_POS - 100_000) / 1e6, (EQ_POS + 100_000) / 1e6)
 axI.set_yticks([0, 2, 4, 6, 8])
-axI.tick_params(labelsize=5.2, length=1.6, pad=1.5)
-axI.set_title('VDR \u00b1100 kb', fontsize=5.6, pad=2)
+axI.tick_params(labelsize=6.8, length=1.8, pad=1.5)
+axI.set_title('VDR \u00b1100 kb', fontsize=6.8, pad=2)
 axI.text(0.5, 0.56, 'no variant\n$P<5\\times10^{-8}$', transform=axI.transAxes,
          fontsize=5.0, ha='center', va='center', color='0.3')
 for sp in ('top', 'right'):
@@ -120,7 +120,10 @@ CAP = 14.6
 y_eq = np.minimum(ci.mlp_eqtl.values, CAP)
 ax2.axvspan(VDR[0] / 1e6, VDR[1] / 1e6, color=C_VDR, alpha=0.10, lw=0)
 ax2.axvspan(COL[0] / 1e6, COL[1] / 1e6, color=C_COL, alpha=0.10, lw=0)
-ax2.scatter(x_eq, y_eq, s=1.6, c='#4393C3', alpha=0.75, linewidths=0, zorder=3)
+ax2.scatter(x_eq[y_eq < CAP], y_eq[y_eq < CAP], s=1.6, c='#4393C3', alpha=0.75,
+            linewidths=0, zorder=3)
+ax2.scatter(x_eq[y_eq >= CAP], np.full((y_eq >= CAP).sum(), CAP), s=6, marker='^',
+            c='#4393C3', alpha=0.9, linewidths=0, zorder=4)
 ax2.axhline(0, color='0.6', lw=0.5)
 ax2.set_ylim(0, 15.2)
 ax2.set_ylabel(r'VDR eQTL  $-\log_{10}$ P', fontsize=7.5)
@@ -156,7 +159,7 @@ for (g, yy, c) in (('VDR', 0.68, C_VDR), ('COL2A1', 0.20, C_COL)):
                  arrowprops=dict(arrowstyle='-|>', lw=0.6, color=c, mutation_scale=5))
     ax3.text((s0 + e0) / 2e6, yy + 0.17, g, fontsize=6.2, color=c, ha='center',
              va='bottom')
-ax3.set_xlabel('Chromosome 12 position (Mb, GRCh38)', fontsize=7.5)
+ax3.set_xlabel('chr12 position (Mb)', fontsize=7.2)
 ax3.tick_params(labelsize=6.5, pad=2)
 
 # ============================ panel B ==========================================
@@ -174,11 +177,8 @@ xs = np.array([-0.36, 0.36])
 axB.fill_between(xs, (theta - 1.96 * se_theta) * xs, (theta + 1.96 * se_theta) * xs,
                  color='0.25', alpha=0.13, lw=0, zorder=1)
 axB.plot(xs, theta * xs, color='0.15', lw=1.0, zorder=5)
-axB.text(0.035, 0.955, 'cis-IVW  0.954 (0.858\u20131.061)', transform=axB.transAxes,
-         fontsize=6.2, ha='left', va='top')
-axB.plot([0.035, 0.075], [0.895, 0.895], transform=axB.transAxes, color='0.15', lw=1.0)
-axB.text(0.082, 0.895, 'IVW fit (3 instruments)', transform=axB.transAxes,
-         fontsize=5.8, ha='left', va='center', color='0.3')
+axB.text(0.97, 0.06, 'cis-IVW 0.954 (0.858-1.061), 3 instruments',
+         transform=axB.transAxes, fontsize=5.8, ha='right', va='bottom', color='0.25')
 
 for snp, filled in ((EQ_RS, True), (OA_RS, False)):
     r = ci[ci.snp == snp]
@@ -217,8 +217,7 @@ axB.legend(handles=handles, loc='upper right', fontsize=5.6, frameon=False,
 w = pd.read_csv(os.path.join(TAB, 'coloc_GCST90566800_windows.csv')).set_index('window')
 sel = ['eQTL peak +/- 10 kb', 'eQTL peak +/- 100 kb', 'OA peak +/- 25 kb',
        'full region 46.8-48.9 Mb']
-lab = ['\u00b110 kb\nprecision', '\u00b1100 kb\nLD scale', 'OA peak\n\u00b125 kb',
-       'full region\nsensitivity']
+lab = ['\u00b110 kb (eQTL)', '\u00b1100 kb (eQTL)', '\u00b125 kb (OA)', '2.1 Mb region']
 S = w.loc[sel]
 SEG = [('H0', '#F0F0F0'), ('H1', '#C9C9C9'), ('H2', '#A0A0A0'),
        ('PP.H3', '#5C5C5C'), ('PP.H4', C_PUR)]
@@ -245,6 +244,11 @@ axC.set_xlim(0, 1.20)
 axC.set_xticks([0, 0.5, 1.0])
 axC.set_xlabel('Posterior probability', fontsize=7.2)
 axC.set_ylabel('Colocalisation window', fontsize=7.2)
+axC.legend(handles=[Rectangle((0, 0), 1, 1, facecolor=c) for c in
+                    ['#F0F0F0', '#C9C9C9', '#A0A0A0', '#5C5C5C', C_PUR]],
+           labels=['H0', 'H1', 'H2', 'H3', 'H4'],
+           loc='upper center', bbox_to_anchor=(0.5, -0.30), ncol=5, fontsize=5.6,
+           frameon=False, handlelength=0.9, columnspacing=0.9, handletextpad=0.35)
 axC.tick_params(labelsize=6.4)
 for sp in ('top', 'right'):
     axC.spines[sp].set_visible(False)
@@ -267,8 +271,7 @@ for i in range(len(sel)):
     txt = '%.1e' % h4 if h4 < 0.001 else '%.3f' % h4
     axC.text(1.015, ys[i], txt, fontsize=5.6, ha='left', va='center', color=C_PUR)
 
-axC.text(1.015, -0.86, 'H4', fontsize=5.8, ha='left', va='center', color=C_PUR,
-         fontweight='bold', clip_on=False)
+
 
 # ============================ panel letters ===================================
 for letter, xx, yy in (('A', 0.088, 0.958), ('B', 0.088, 0.345), ('C', 0.615, 0.345)):
