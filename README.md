@@ -1,6 +1,6 @@
 # VDR and knee osteoarthritis: analysis code
 
-Code and summary tables supporting the manuscript *"The knee osteoarthritis signal at 12q13 maps to COL2A1, not the vitamin D receptor"*.
+Code and summary tables supporting the manuscript *"Limited genetic support for a causal role of VDR expression in knee osteoarthritis: cis-eQTL instruments are confounded by the adjacent COL2A1 signal"*.
 
 ## Data sources (all public)
 
