@@ -1,6 +1,6 @@
 # VDR and knee osteoarthritis: analysis code
 
-Code and summary tables supporting the manuscript *"Limited genetic support for a causal role of VDR expression in knee osteoarthritis: cis-eQTL instruments are confounded by the adjacent COL2A1 signal"*.
+Code and summary tables supporting the manuscript *"Limited genetic support for a causal role of VDR expression in knee osteoarthritis: COL2A1 attribution and regulatory/repair-like chondrocyte localisation"*.
 
 ## Data sources (all public)
 
@@ -13,6 +13,10 @@ Code and summary tables supporting the manuscript *"Limited genetic support for 
 | Single-cell atlas (replication) | GEO | GSE152805 (OA knee cartilage, 6 samples, 3 donors) |
 | Single-cell atlas (replication) | GEO | GSE324993 (OA and healthy cartilage, 44,348 cells, 6 donors) |
 | Bulk cartilage | GEO | GSE114007 |
+| Paired synovium (same donors as GSE152805) | GEO | GSE152805, samples GSM4626763/64/65 |
+| Further synovium | GEO | GSE283080 (two inflamed samples) |
+| Control trait (positive) | FinnGen release 12 | `M13_ARTHROSIS` |
+| Control trait (negative) | FinnGen release 12 | `T2D` |
 
 ## Analysis steps
 
@@ -29,7 +33,12 @@ Code and summary tables supporting the manuscript *"Limited genetic support for 
 11. **Gene-level z-scores for scDRS** (GTF gene bodies +/- 10 kb, min p per gene) — `build_gene_z.py`
 12. **Single-cell disease relevance scoring** — `run_scdrs.py`
 13. **Bulk validation, GSE114007** — `bulk_validation_GSE114007.py`
-14. OpenGWAS API helpers — `fetch_region.py`, `fetch_opengwas.py`
+14. **Conditional association analysis** (GCTA-COJO, 1000 Genomes EUR reference, 5,879 variants) — `cojo_build_reference.py`, `cojo_input.py`, `cojo_run.py`, `cojo_read.py`, `cojo_summary.py`
+15. **Conditional colocalisation** (coloc conditioned on the disease lead variant) — `coloc_conditional.R`
+16. **Nuclear-receptor cis-MR screen** (48 receptors, 300 kb window, 1 Mb distance pruning) — `nr48_map.py`, `nr48_mr_screen.py`
+17. **Paired synovium analysis** (Leiden clustering and marker annotation) — `gse152805_synovium_paired.py`
+18. **scDRS specificity control** (OA, FinnGen arthrosis, FinnGen T2D gene sets) — `scdrs_control.py`, `finngen_genez.py`
+19. OpenGWAS API helpers — `fetch_region.py`, `fetch_opengwas.py`
 
 R 4.4.3; TwoSampleMR, coloc, Seurat 5, ieugwasr, data.table, scTenifoldKnk. Python 3.11; scdrs 1.0.2, scanpy, anndata.
 
@@ -44,8 +53,14 @@ R 4.4.3; TwoSampleMR, coloc, Seurat 5, ieugwasr, data.table, scTenifoldKnk. Pyth
 - **Disease relevance (scDRS)** on GSE324993: highest in RepC (mean normalised score +0.49); the merged regulatory compartment (16,905 cells) scored +0.06 versus -0.04 in other states; within-donor difference positive in 5 of 6 donors (mean +0.17, one-sample t = 2.77, P = 0.040). A case-control comparison was not interpretable with three donors per group and is not claimed.
 - **Bulk validation (GSE114007)**: VDR upregulated in OA cartilage (log2 3.93 vs 3.58, P = 8.5 × 10^-3) and correlated with CYP24A1 (Spearman r = 0.50, P = 0.017).
 
+- **Nuclear-receptor screen**: of the 48 human nuclear receptors, 16 had both a blood cis-eQTL dataset and a usable instrument; none was associated with knee OA (smallest P = 0.060, all FDR >= 0.37).
+- **Synovium**: in paired synovium from the three GSE152805 donors, VDR was detected in 7.9-13.7% of macrophage-cluster cells and 4.2-8.4% of fibroblast-cluster cells (higher in macrophages in all three donors); two further inflamed samples gave 41.9% vs 17.8% and 21.0% vs 7.4%.
+- **Localisation specificity**: projecting control gene sets onto GSE324993 showed that the repair-like state (RepC) is disease-specific (positive in 6/6 donors for knee OA, 5/6 for FinnGen arthrosis, 0/6 for type 2 diabetes), whereas the regulatory compartment (RegC) is positive for all three traits and is therefore not disease-specific.
+- **COL2A1 weight sign**: gene weights in scDRS are signed gene-level z-scores, so COL2A1 (z = -4.97) contributes positively where its expression is low; RegC has the lowest COL2A1 expression of any state.
+
 ## Pitfalls encountered (worth knowing before re-running)
 
+- **Distance pruning is not LD clumping.** The 48-receptor screen used one instrument per megabase because no LD reference spans every receptor locus; the 14-target screen and the cis-restricted VDR analysis used r² < 0.001 clumping. Do not describe one as the other.
 - **Truncated downloads fail silently.** `GSE324993_counts_matrix.csv.gz` was downloaded at 22.4 MB instead of 113.4 MB; `zlib.decompressobj` stopped at the truncation point without raising, and the VDR row was never read, producing all-zero detection. `replicate_GSE324993.py` now checks `decompressor.eof` and aborts. Any streaming parser should do the same.
 - **Genome build mismatch.** EBI GWAS Catalog harmonised files are GRCh38. Using a GRCh37 GTF shifted gene assignments by up to ~1.5 Mb and put GDF5 at rank 38,475 (true Z ≈ +9.9, rank 1). Check a known locus before trusting gene-level output.
 - **Two analyses that did not work here** and are not reported in the manuscript: bulk deconvolution (NNLS and MuSiC both fail because GSE114007 is length-normalised bulk while the reference is 10x UMI; MuSiC reconstruction R^2 was 0.03-0.09), and scTenifoldKnk virtual knockout (control knockouts of unrelated genes produced equal or larger numbers of significant genes, so the ranking is not target-specific).

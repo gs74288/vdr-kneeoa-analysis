@@ -1,0 +1,16 @@
+donor,cell_class,n,detected,pct
+113,B/plasma,51,2,3.9
+113,T/NK,43,0,0.0
+113,endothelial,117,2,1.7
+113,fibroblast,4545,225,5.0
+113,macrophage,340,40,11.8
+116,B/plasma,29,5,17.2
+116,T/NK,11,3,27.3
+116,endothelial,87,4,4.6
+116,fibroblast,3455,291,8.4
+116,macrophage,293,40,13.7
+118,B/plasma,11,1,9.1
+118,T/NK,64,0,0.0
+118,endothelial,175,2,1.1
+118,fibroblast,720,30,4.2
+118,macrophage,659,52,7.9

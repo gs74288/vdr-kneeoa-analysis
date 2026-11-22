@@ -1,0 +1,207 @@
+id,trait,chr,position,rsid,ea,nea,eaf,beta,se,p,n,category,trait_name
+ebi-a-GCST007090,Knee osteoarthritis,12,48403765,rs11168351,A,G,0.3718,-0.0369,0.0096,0.000121001,403124,OA knee,Knee osteoarthritis
+ebi-a-GCST90018739,Height,12,48403765,rs11168351,A,G,0.084933,-0.0132289,0.00357832,0.000219999,165056,height,Height
+ukb-e-M17_AFR,M17 Gonarthrosis [arthrosis of knee],12,48238837,rs7975232,A,C,0.6521,-0.2533,0.07906,0.001357,,OA any,M17 Gonarthrosis [arthrosis of knee]
+ebi-a-GCST007092,Osteoarthritis of the hip or knee,12,48403765,rs11168351,A,G,0.3719,-0.023,0.0079,0.00338298,417596,OA hip,Osteoarthritis of the hip or knee
+ebi-a-GCST90029024,Type 2 diabetes,12,48403765,rs11168351,A,G,0.371929,-0.00118015,0.000426789,0.00560003,468298,T2D,Type 2 diabetes
+ukb-d-KNEE_ARTHROSIS,Gonarthrosis [arthrosis of knee](FG),12,48403765,rs11168351,A,G,0.371631,-0.00117593,0.000432532,0.0065542,361194,OA any,Gonarthrosis [arthrosis of knee](FG)
+ukb-d-M13_ARTHROSIS,#Arthrosis,12,48403765,rs11168351,A,G,0.371631,-0.00161579,0.000611306,0.00821353,361194,OA any,#Arthrosis
+ebi-a-GCST90029004,Heel bone mineral density,12,48403765,rs11168351,A,G,0.372055,0.00601482,0.00193247,0.016,583314,BMD,Heel bone mineral density
+ebi-a-GCST90025982,Heel bone mineral density T score,12,48403765,rs11168351,A,G,0.371912,0.00582936,0.00192755,0.0189998,445855,BMD,Heel bone mineral density T score
+ebi-a-GCST90038686,Osteoarthritis,12,48403765,rs11168351,A,G,0.365731,-0.00130668,0.000568545,0.021,484598,OA any,Osteoarthritis
+ebi-a-GCST90013931,Osteoarthritis (SPA correction),12,48403765,rs11168351,A,G,,-0.0185874,0.00837653,0.0264881,407746,OA any,Osteoarthritis (SPA correction)
+ebi-a-GCST90013881,Osteoarthritis (Firth correction),12,48403765,rs11168351,A,G,,-0.0186017,0.00839071,0.0265393,407746,OA any,Osteoarthritis (Firth correction)
+ebi-a-GCST008053,Height,12,48403765,rs11168351,A,G,0.181493,-0.0164151,0.00751761,0.0289955,22192,height,Height
+ieu-a-1171,Knee osteoarthritis,12,48403765,rs11168351,A,G,,-0.0618754,0.029728,0.0465618,11655,OA knee,Knee osteoarthritis
+ebi-a-GCST90018959,Height,12,48403765,rs11168351,A,G,0.281576,-0.003,0.0015,0.05202,360388,height,Height
+ukb-e-4106_EAS,"Heel bone mineral density (BMD) T-score, automated (left)",12,48403765,rs11168351,A,G,0.1546,-0.1012,0.05389,0.0604505,,BMD,"Heel bone mineral density (BMD) T-score, automated (left)"
+ebi-a-GCST90038699,Arthritis (not osteoarthritis),12,48403765,rs11168351,A,G,0.365731,-0.000340855,0.000184772,0.0649995,484598,OA any,Arthritis (not osteoarthritis)
+ukb-e-4124_CSA,Heel bone mineral density (BMD) (right),12,48403765,rs11168351,A,G,0.4311,0.0336,0.01929,0.0814498,,BMD,Heel bone mineral density (BMD) (right)
+ukb-e-100021_CSA,Vitamin D,12,48403765,rs11168351,A,G,0.4238,-0.07181,0.04154,0.0838996,,vitamin D,Vitamin D
+ukb-e-78_p1_AFR,"Heel bone mineral density (BMD) T-score, automated",12,48403765,rs11168351,A,G,0.02941,0.1941,0.1132,0.0864709,,BMD,"Heel bone mineral density (BMD) T-score, automated"
+ukb-e-4125_CSA,"Heel bone mineral density (BMD) T-score, automated (right)",12,48403765,rs11168351,A,G,0.431,0.0332,0.01938,0.0867901,,BMD,"Heel bone mineral density (BMD) T-score, automated (right)"
+ebi-a-GCST005812,Osteoarthritis of the hip or knee (hospital diagnosed),12,48403765,rs11168351,A,G,0.375322,-0.0338502,0.0202573,0.094417,32970,OA hip,Osteoarthritis of the hip or knee (hospital diagnosed)
+ukb-b-3422,Operation code: spine or back surgery,12,48238837,rs7975232,A,C,0.52712,0.000358291,0.000229323,0.12,462933,OA spine,Operation code: spine or back surgery
+ebi-a-GCST005813,Osteoarthritis of the knee (hospital diagnosed),12,48403765,rs11168351,A,G,0.374951,-0.0374127,0.0245996,0.127902,22347,OA knee,Osteoarthritis of the knee (hospital diagnosed)
+ukb-b-6549,Treatment/medication code: calcium+vitamin d 500units tablet,12,48238837,rs7975232,A,C,0.52712,-0.000205282,0.000136441,0.13,462933,vitamin D,Treatment/medication code: calcium+vitamin d 500units tablet
+ebi-a-GCST90026417,Type 2 diabetes,12,48238837,rs7975232,A,C,0.54,0.0476848,0.0320782,0.137142,12230,T2D,Type 2 diabetes
+ebi-a-GCST90018727,Body mass index,12,48403765,rs11168351,A,G,0.084977,0.00829414,0.00568477,0.14,163835,BMI,Body mass index
+ukb-d-30710_raw,C-reactive protein,12,48238837,rs7975232,A,C,0.52637,-0.015453,0.010575,0.14394,343524,CRP,C-reactive protein
+ebi-a-GCST90038634,Type 2 diabetes,12,48403765,rs11168351,A,G,0.365731,-0.000248795,0.000171989,0.15,484598,T2D,Type 2 diabetes
+ebi-a-GCST90025959,C-reactive protein levels,12,48238837,rs7975232,A,C,0.52529,-0.00257656,0.00199192,0.16,436939,CRP,C-reactive protein levels
+ukb-b-10787,Standing height,12,48238837,rs7975232,A,C,0.527082,0.00182897,0.00130581,0.16,461950,height,Standing height
+ukb-e-4105_AFR,Heel bone mineral density (BMD) (left),12,48238837,rs7975232,A,C,0.6489,0.04644,0.03387,0.1703,,BMD,Heel bone mineral density (BMD) (left)
+ukb-e-721_CSA,Spondylosis and allied disorders,12,48403765,rs11168351,A,G,0.4278,-0.1341,0.09835,0.1727,,OA spine,Spondylosis and allied disorders
+ebi-a-GCST90018926,Type 2 diabetes,12,48403765,rs11168351,A,G,0.287028,-0.0105,0.0078,0.1804,490089,T2D,Type 2 diabetes
+ieu-a-1170,Knee and hip osteoarthritis,12,48403765,rs11168351,A,G,,-0.0304592,0.0210513,0.18065,14507,OA hip,Knee and hip osteoarthritis
+ebi-a-GCST90095033,Height,12,48403765,rs11168351,A,G,0.2758,-0.0078,0.0059,0.1842,59771,height,Height
+ukb-b-5079,Vitamin and/or mineral supplement use: Vitamin D,12,48238837,rs7975232,A,C,0.526053,0.00126855,0.000975268,0.19,64949,vitamin D,Vitamin and/or mineral supplement use: Vitamin D
+ukb-b-2349,"Non-cancer illness code, self-reported: cervical spondylosis",12,48238837,rs7975232,A,C,0.52712,-0.000227374,0.000175009,0.19,462933,OA spine,"Non-cancer illness code, self-reported: cervical spondylosis"
+ebi-a-GCST90026414,Severe insulin-resistant type 2 diabetes,12,48238837,rs7975232,A,C,0.538,0.0682571,0.052362,0.192383,3874,T2D,Severe insulin-resistant type 2 diabetes
+ukb-e-30710_AFR,C-reactive protein,12,48238837,rs7975232,A,C,0.6481,0.02618,0.02014,0.1935,,CRP,C-reactive protein
+ukb-a-389,Standing height,12,48238837,rs7975232,A,C,0.526355,0.0022271,0.00172823,0.197518,336474,height,Standing height
+ebi-a-GCST90026416,Mild age-related type 2 diabetes,12,48238837,rs7975232,A,C,0.537,0.0503906,0.0396383,0.203639,5605,T2D,Mild age-related type 2 diabetes
+ukb-b-10787,Standing height,12,48403765,rs11168351,A,G,0.37174,-0.00167432,0.00134924,0.21,461950,height,Standing height
+ukb-e-4125_CSA,"Heel bone mineral density (BMD) T-score, automated (right)",12,48238837,rs7975232,A,C,0.5671,-0.02333,0.01926,0.2258,,BMD,"Heel bone mineral density (BMD) T-score, automated (right)"
+ukb-d-M48,Diagnoses - main ICD10: M48 Other spondylopathies,12,48238837,rs7975232,A,C,0.526445,0.000213175,0.000176641,0.2275,361194,OA spine,Diagnoses - main ICD10: M48 Other spondylopathies
+ukb-b-2349,"Non-cancer illness code, self-reported: cervical spondylosis",12,48403765,rs11168351,A,G,0.371737,-0.00021656,0.00018083,0.23,462933,OA spine,"Non-cancer illness code, self-reported: cervical spondylosis"
+ukb-e-30710_MID,C-reactive protein,12,48403765,rs11168351,A,G,0.3244,-0.04336,0.03646,0.2343,,CRP,C-reactive protein
+ukb-b-2625,Diagnoses - secondary ICD10: M47.82 Other spondylosis (Cervical region),12,48238837,rs7975232,A,C,0.527118,0.000115602,9.75491e-05,0.24,463010,OA spine,Diagnoses - secondary ICD10: M47.82 Other spondylosis (Cervical region)
+ebi-a-GCST90018959,Height,12,48238837,rs7975232,A,C,0.461401,0.0015,0.0013,0.2428,360388,height,Height
+ebi-a-GCST90038693,Cervical spondylosis,12,48238837,rs7975232,A,C,0.528836,-0.000191564,0.000169319,0.26,484598,OA spine,Cervical spondylosis
+ebi-a-GCST90014016,Vitamin D levels (UKB data field 30890),12,48403765,rs11168351,A,G,,0.00259421,0.00232424,0.264355,373045,vitamin D,Vitamin D levels (UKB data field 30890)
+ukb-d-30890_raw,Vitamin D,12,48238837,rs7975232,A,C,0.52642,0.05661,0.051442,0.27113,329247,vitamin D,Vitamin D
+ebi-a-GCST90025949,Height,12,48238837,rs7975232,A,C,0.52529,0.00176624,0.00156613,0.28,458235,height,Height
+ukb-e-50_CSA,Standing height,12,48403765,rs11168351,A,G,0.4265,-0.01135,0.01055,0.282,,height,Standing height
+ukb-e-30890_CSA,Vitamin D,12,48238837,rs7975232,A,C,0.5699,-0.01644,0.01537,0.2847,,vitamin D,Vitamin D
+ukb-e-100021_AFR,Vitamin D,12,48403765,rs11168351,A,G,0.03846,-0.1422,0.1337,0.2874,,vitamin D,Vitamin D
+ukb-e-30890_EAS,Vitamin D,12,48238837,rs7975232,A,C,0.3152,-0.02677,0.02531,0.2903,,vitamin D,Vitamin D
+ukb-e-21001_MID,Body mass index (BMI),12,48403765,rs11168351,A,G,0.327,-0.03897,0.03695,0.2916,,BMI,Body mass index (BMI)
+ukb-b-5389,"Non-cancer illness code, self-reported: spine arthritis/spondylitis",12,48403765,rs11168351,A,G,0.371737,-0.000206092,0.000199985,0.3,462933,OA spine,"Non-cancer illness code, self-reported: spine arthritis/spondylitis"
+ukb-d-30890_irnt,Vitamin D,12,48238837,rs7975232,A,C,0.52642,0.0025365,0.0024516,0.30083,329247,vitamin D,Vitamin D
+ebi-a-GCST90018926,Type 2 diabetes,12,48238837,rs7975232,A,C,0.4766,0.0065,0.0064,0.3112,490089,T2D,Type 2 diabetes
+ukb-d-M47,Diagnoses - main ICD10: M47 Spondylosis,12,48403765,rs11168351,A,G,0.371631,0.000189809,0.000190002,0.317804,361194,OA spine,Diagnoses - main ICD10: M47 Spondylosis
+ukb-e-30710_CSA,C-reactive protein,12,48238837,rs7975232,A,C,0.5691,-0.01411,0.01457,0.333,,CRP,C-reactive protein
+ebi-a-GCST90026415,Mild obesity-related type 2 diabetes,12,48238837,rs7975232,A,C,0.537,0.0473804,0.0493165,0.336684,4118,T2D,Mild obesity-related type 2 diabetes
+ukb-e-50_AFR,Standing height,12,48238837,rs7975232,A,C,0.6485,-0.01247,0.01307,0.3402,,height,Standing height
+ukb-e-M17_CSA,M17 Gonarthrosis [arthrosis of knee],12,48403765,rs11168351,A,G,0.426,0.05933,0.0626,0.3432,,OA any,M17 Gonarthrosis [arthrosis of knee]
+ukb-e-78_p1_AFR,"Heel bone mineral density (BMD) T-score, automated",12,48238837,rs7975232,A,C,0.6498,-0.03752,0.03961,0.3435,,BMD,"Heel bone mineral density (BMD) T-score, automated"
+ebi-a-GCST90038657,Spine arthritis or spondylitis,12,48238837,rs7975232,A,C,0.528836,0.000176357,0.000187479,0.35,484598,OA spine,Spine arthritis or spondylitis
+ebi-a-GCST90029008,Height,12,48238837,rs7975232,A,C,0.526844,0.00157711,0.00156065,0.35,673878,height,Height
+ukb-b-6549,Treatment/medication code: calcium+vitamin d 500units tablet,12,48403765,rs11168351,A,G,0.371737,0.000129067,0.000140979,0.36,462933,vitamin D,Treatment/medication code: calcium+vitamin d 500units tablet
+ebi-a-GCST90018730,C-reactive protein,12,48403765,rs11168351,A,G,0.085445,0.00761816,0.00835773,0.36,83025,CRP,C-reactive protein
+ukb-d-M15,Diagnoses - main ICD10: M15 Polyarthrosis,12,48403765,rs11168351,A,G,0.371631,-0.000135178,0.000150856,0.370215,361194,OA any,Diagnoses - main ICD10: M15 Polyarthrosis
+ukb-e-23104_MID,Body mass index (BMI),12,48403765,rs11168351,A,G,0.3277,-0.03324,0.03741,0.3743,,BMI,Body mass index (BMI)
+ebi-a-GCST90026415,Mild obesity-related type 2 diabetes,12,48403765,rs11168351,A,G,0.401,-0.043694,0.0502162,0.384236,4118,T2D,Mild obesity-related type 2 diabetes
+ebi-a-GCST90014022,Bone mineral density,12,48403765,rs11168351,A,G,,0.00184994,0.00212665,0.384362,365403,BMD,Bone mineral density
+ukb-e-740_AFR,Osteoarthrosis,12,48238837,rs7975232,A,C,0.6497,-0.06796,0.07817,0.3847,,OA any,Osteoarthrosis
+ieu-a-1170,Knee and hip osteoarthritis,12,48238837,rs7975232,A,C,,-0.0198026,0.0200183,0.39076,14507,OA hip,Knee and hip osteoarthritis
+ukb-e-4124_AFR,Heel bone mineral density (BMD) (right),12,48403765,rs11168351,A,G,0.03672,0.07345,0.08561,0.3909,,BMD,Heel bone mineral density (BMD) (right)
+ebi-a-GCST90025967,Vitamin D levels,12,48403765,rs11168351,A,G,0.371791,0.00191851,0.00218707,0.4,418691,vitamin D,Vitamin D levels
+ebi-a-GCST90038693,Cervical spondylosis,12,48403765,rs11168351,A,G,0.365731,-0.000149334,0.000176153,0.4,484598,OA spine,Cervical spondylosis
+ukb-b-5389,"Non-cancer illness code, self-reported: spine arthritis/spondylitis",12,48238837,rs7975232,A,C,0.52712,0.000163869,0.000193546,0.4,462933,OA spine,"Non-cancer illness code, self-reported: spine arthritis/spondylitis"
+ebi-a-GCST90038657,Spine arthritis or spondylitis,12,48403765,rs11168351,A,G,0.365731,-0.000159289,0.000195046,0.41,484598,OA spine,Spine arthritis or spondylitis
+ebi-a-GCST007090,Knee osteoarthritis,12,48238837,rs7975232,A,C,0.5265,0.0076,0.0093,0.4117,403124,OA knee,Knee osteoarthritis
+ukb-e-23104_MID,Body mass index (BMI),12,48238837,rs7975232,A,C,0.598,-0.02982,0.0371,0.4216,,BMI,Body mass index (BMI)
+ukb-e-740_AFR,Osteoarthrosis,12,48403765,rs11168351,A,G,0.03356,0.1607,0.2008,0.4238,,OA any,Osteoarthrosis
+ukb-e-4105_CSA,Heel bone mineral density (BMD) (left),12,48238837,rs7975232,A,C,0.5669,-0.01499,0.0188,0.4254,,BMD,Heel bone mineral density (BMD) (left)
+ebi-a-GCST90029070,C-reactive protein levels,12,48238837,rs7975232,A,C,,-0.0016,0.002,0.432,575531,CRP,C-reactive protein levels
+ukb-e-23104_CSA,Body mass index (BMI),12,48403765,rs11168351,A,G,0.4265,0.01124,0.01442,0.4358,,BMI,Body mass index (BMI)
+ebi-a-GCST90025967,Vitamin D levels,12,48238837,rs7975232,A,C,0.525341,0.00145508,0.00212082,0.44,418691,vitamin D,Vitamin D levels
+ebi-a-GCST90038686,Osteoarthritis,12,48238837,rs7975232,A,C,0.528836,-0.000426999,0.000546487,0.44,484598,OA any,Osteoarthritis
+ukb-e-4124_CSA,Heel bone mineral density (BMD) (right),12,48238837,rs7975232,A,C,0.5665,-0.0148,0.01918,0.4402,,BMD,Heel bone mineral density (BMD) (right)
+ebi-a-GCST90095039,Body mass index,12,48238837,rs7975232,A,C,0.5543,-0.0022,0.0029,0.4533,330793,BMI,Body mass index
+ukb-e-30890_AFR,Vitamin D,12,48238837,rs7975232,A,C,0.6477,-0.01246,0.01687,0.4599,,vitamin D,Vitamin D
+ukb-e-4124_AFR,Heel bone mineral density (BMD) (right),12,48238837,rs7975232,A,C,0.6487,0.02482,0.03362,0.4604,,BMD,Heel bone mineral density (BMD) (right)
+ukb-e-21001_MID,Body mass index (BMI),12,48238837,rs7975232,A,C,0.598,-0.02696,0.03657,0.461,,BMI,Body mass index (BMI)
+ukb-d-M13_SPONDYLOPATHY,#Spondylopathies,12,48238837,rs7975232,A,C,0.526445,0.000187346,0.000258193,0.468082,361194,OA spine,#Spondylopathies
+ukb-d-30710_irnt,C-reactive protein,12,48403765,rs11168351,A,G,0.37162,-0.001792,0.002472,0.46851,343524,CRP,C-reactive protein
+ebi-a-GCST90038634,Type 2 diabetes,12,48238837,rs7975232,A,C,0.528836,-0.000116302,0.000165317,0.47,484598,T2D,Type 2 diabetes
+ebi-a-GCST90025994,Body mass index,12,48403765,rs11168351,A,G,0.371809,-0.00159267,0.00198683,0.47,457756,BMI,Body mass index
+ebi-a-GCST90026413,Severe insulin-deficient type 2 diabetes,12,48403765,rs11168351,A,G,0.402,-0.0386444,0.0536972,0.471724,3937,T2D,Severe insulin-deficient type 2 diabetes
+ukb-e-50_CSA,Standing height,12,48238837,rs7975232,A,C,0.5691,-0.007515,0.01046,0.4726,,height,Standing height
+ukb-e-M17_CSA,M17 Gonarthrosis [arthrosis of knee],12,48238837,rs7975232,A,C,0.5694,-0.04306,0.06248,0.4907,,OA any,M17 Gonarthrosis [arthrosis of knee]
+ebi-a-GCST90029007,Body mass index,12,48403765,rs11168351,A,G,0.371953,-0.00151276,0.00198613,0.5,532396,BMI,Body mass index
+ieu-a-1169,Hip osteoarthritis,12,48238837,rs7975232,A,C,,-0.0198026,0.0300467,0.51097,14275,OA hip,Hip osteoarthritis
+prot-a-670,C-reactive protein,12,48403765,rs11168351,A,G,0.38666,-0.0165,0.0254,0.512861,3301,CRP,C-reactive protein
+ebi-a-GCST005810,Osteoarthritis of the hip (hospital diagnosed),12,48403765,rs11168351,A,G,0.374909,-0.0218737,0.0335685,0.514408,11989,OA hip,Osteoarthritis of the hip (hospital diagnosed)
+ukb-a-389,Standing height,12,48403765,rs11168351,A,G,0.372316,-0.00112793,0.0017849,0.527435,336474,height,Standing height
+ukb-b-2625,Diagnoses - secondary ICD10: M47.82 Other spondylosis (Cervical region),12,48403765,rs11168351,A,G,0.371731,6.38311e-05,0.000100794,0.53,463010,OA spine,Diagnoses - secondary ICD10: M47.82 Other spondylosis (Cervical region)
+ukb-e-30890_MID,Vitamin D,12,48403765,rs11168351,A,G,0.3212,0.0242,0.03883,0.5331,,vitamin D,Vitamin D
+ukb-e-50_EAS,Standing height,12,48238837,rs7975232,A,C,0.3171,0.01217,0.0196,0.5346,,height,Standing height
+ukb-b-7946,Operative procedures - secondary OPCS: V55.2 Two levels of spine,12,48238837,rs7975232,A,C,0.527118,7.37285e-05,0.000124667,0.55,463010,OA spine,Operative procedures - secondary OPCS: V55.2 Two levels of spine
+ukb-d-KNEE_ARTHROSIS,Gonarthrosis [arthrosis of knee](FG),12,48238837,rs7975232,A,C,0.526445,0.00024563,0.000418594,0.55734,361194,OA any,Gonarthrosis [arthrosis of knee](FG)
+ukb-e-30710_EAS,C-reactive protein,12,48403765,rs11168351,A,G,0.1556,0.02229,0.0382,0.5596,,CRP,C-reactive protein
+ukb-d-30710_irnt,C-reactive protein,12,48238837,rs7975232,A,C,0.52637,-0.0013958,0.0023927,0.55966,343524,CRP,C-reactive protein
+ukb-d-30710_raw,C-reactive protein,12,48403765,rs11168351,A,G,0.37162,0.0062727,0.010926,0.56588,343524,CRP,C-reactive protein
+ebi-a-GCST90093110,Type 2 diabetes (adjusted for BMI),12,48403765,rs11168351,A,G,0.0126,0.0378,0.0698,0.5887,50533,T2D,Type 2 diabetes (adjusted for BMI)
+ebi-a-GCST90029007,Body mass index,12,48238837,rs7975232,A,C,0.526829,-0.0010394,0.00192203,0.59,532396,BMI,Body mass index
+ebi-a-GCST90026413,Severe insulin-deficient type 2 diabetes,12,48238837,rs7975232,A,C,0.534,0.0276054,0.0523281,0.59781,3937,T2D,Severe insulin-deficient type 2 diabetes
+ukb-e-30890_AFR,Vitamin D,12,48403765,rs11168351,A,G,0.0349,-0.02296,0.04435,0.6047,,vitamin D,Vitamin D
+ukb-b-7946,Operative procedures - secondary OPCS: V55.2 Two levels of spine,12,48403765,rs11168351,A,G,0.371731,-6.59659e-05,0.000128815,0.61,463010,OA spine,Operative procedures - secondary OPCS: V55.2 Two levels of spine
+ukb-e-721_CSA,Spondylosis and allied disorders,12,48238837,rs7975232,A,C,0.57,-0.04706,0.09748,0.6293,,OA spine,Spondylosis and allied disorders
+ebi-a-GCST90018706,Type 2 diabetes,12,48403765,rs11168351,A,G,0.0846952,0.00784119,0.0164501,0.633601,177415,T2D,Type 2 diabetes
+ukb-e-740_CSA,Osteoarthrosis,12,48238837,rs7975232,A,C,0.5692,-0.03072,0.06447,0.6337,,OA any,Osteoarthrosis
+ukb-e-78_p1_CSA,"Heel bone mineral density (BMD) T-score, automated",12,48403765,rs11168351,A,G,0.4182,-0.01336,0.02808,0.6342,,BMD,"Heel bone mineral density (BMD) T-score, automated"
+ukb-e-30710_MID,C-reactive protein,12,48238837,rs7975232,A,C,0.6029,0.01704,0.03607,0.636601,,CRP,C-reactive protein
+ebi-a-GCST90013870,Body mass index (UKB data field 21001),12,48403765,rs11168351,A,G,,-0.000994291,0.00213715,0.641758,407609,BMI,Body mass index (UKB data field 21001)
+ieu-a-1171,Knee osteoarthritis,12,48238837,rs7975232,A,C,,-0.00995033,0.0276736,0.648281,11655,OA knee,Knee osteoarthritis
+ukb-e-23104_CSA,Body mass index (BMI),12,48238837,rs7975232,A,C,0.5688,0.006505,0.01428,0.6488,,BMI,Body mass index (BMI)
+ukb-b-3422,Operation code: spine or back surgery,12,48403765,rs11168351,A,G,0.371737,0.000108425,0.000236952,0.649999,462933,OA spine,Operation code: spine or back surgery
+ebi-a-GCST90025994,Body mass index,12,48238837,rs7975232,A,C,0.525275,-0.000852432,0.00192764,0.649999,457756,BMI,Body mass index
+ebi-a-GCST90025949,Height,12,48403765,rs11168351,A,G,0.371795,-0.00106411,0.00161433,0.649999,458235,height,Height
+ukb-d-M13_SPONDYLOPATHY,#Spondylopathies,12,48403765,rs11168351,A,G,0.371631,0.000119934,0.000266793,0.653043,361194,OA spine,#Spondylopathies
+ebi-a-GCST90013974,Body mass index (UKB data field 21001),12,48403765,rs11168351,A,G,,-0.000948226,0.00213754,0.657326,407609,BMI,Body mass index (UKB data field 21001)
+ebi-a-GCST90018739,Height,12,48238837,rs7975232,A,C,0.319434,-0.000933574,0.00214343,0.66,165056,height,Height
+ebi-a-GCST90029024,Type 2 diabetes,12,48238837,rs7975232,A,C,0.526883,0.000209032,0.000412989,0.66,468298,T2D,Type 2 diabetes
+ukb-e-30890_CSA,Vitamin D,12,48403765,rs11168351,A,G,0.4285,0.006782,0.01544,0.6605,,vitamin D,Vitamin D
+ebi-a-GCST90014022,Bone mineral density,12,48238837,rs7975232,A,C,,-0.000878957,0.00205835,0.669365,365403,BMD,Bone mineral density
+ukb-b-5079,Vitamin and/or mineral supplement use: Vitamin D,12,48403765,rs11168351,A,G,0.373193,0.000432126,0.00100741,0.67,64949,vitamin D,Vitamin and/or mineral supplement use: Vitamin D
+ebi-a-GCST90029008,Height,12,48403765,rs11168351,A,G,0.37194,-0.00103639,0.00161281,0.67,673878,height,Height
+ebi-a-GCST90018950,C-reactive protein,12,48238837,rs7975232,A,C,0.486934,-0.0009,0.0022,0.6736,353466,CRP,C-reactive protein
+ebi-a-GCST90014016,Vitamin D levels (UKB data field 30890),12,48238837,rs7975232,A,C,,0.000941845,0.00224863,0.675324,373045,vitamin D,Vitamin D levels (UKB data field 30890)
+ukb-e-100021_CSA,Vitamin D,12,48238837,rs7975232,A,C,0.569,-0.01684,0.04049,0.6774,,vitamin D,Vitamin D
+ukb-e-50_AFR,Standing height,12,48403765,rs11168351,A,G,0.03409,-0.01445,0.03481,0.678,,height,Standing height
+ukb-e-M17_AFR,M17 Gonarthrosis [arthrosis of knee],12,48403765,rs11168351,A,G,0.03404,-0.0816,0.2019,0.686099,,OA any,M17 Gonarthrosis [arthrosis of knee]
+ebi-a-GCST90018706,Type 2 diabetes,12,48238837,rs7975232,A,C,0.320006,-0.00395405,0.00981382,0.687018,177415,T2D,Type 2 diabetes
+prot-a-670,C-reactive protein,12,48238837,rs7975232,A,C,0.52944,0.0096,0.0248,0.691831,3301,CRP,C-reactive protein
+ukb-d-30890_raw,Vitamin D,12,48403765,rs11168351,A,G,0.3718,0.020788,0.053173,0.69583,329247,vitamin D,Vitamin D
+ebi-a-GCST007092,Osteoarthritis of the hip or knee,12,48238837,rs7975232,A,C,0.5265,0.003,0.0076,0.6964,417596,OA hip,Osteoarthritis of the hip or knee
+ebi-a-GCST90018950,C-reactive protein,12,48403765,rs11168351,A,G,0.317201,-0.0009,0.0024,0.698101,353466,CRP,C-reactive protein
+ukb-e-78_p1_EAS,"Heel bone mineral density (BMD) T-score, automated",12,48403765,rs11168351,A,G,0.1708,-0.02041,0.05294,0.6998,,BMD,"Heel bone mineral density (BMD) T-score, automated"
+ebi-a-GCST90026414,Severe insulin-resistant type 2 diabetes,12,48403765,rs11168351,A,G,0.403,-0.0204821,0.0535379,0.702037,3874,T2D,Severe insulin-resistant type 2 diabetes
+ebi-a-GCST90018727,Body mass index,12,48238837,rs7975232,A,C,0.319476,0.00128512,0.00340644,0.709999,163835,BMI,Body mass index
+ukb-d-30890_irnt,Vitamin D,12,48403765,rs11168351,A,G,0.3718,0.00093534,0.0025341,0.712049,329247,vitamin D,Vitamin D
+ebi-a-GCST90026417,Type 2 diabetes,12,48403765,rs11168351,A,G,0.403,-0.0119895,0.0326148,0.713168,12230,T2D,Type 2 diabetes
+ukb-e-30710_CSA,C-reactive protein,12,48403765,rs11168351,A,G,0.4287,0.005367,0.01469,0.714801,,CRP,C-reactive protein
+ukb-d-M15,Diagnoses - main ICD10: M15 Polyarthrosis,12,48238837,rs7975232,A,C,0.526445,-5.18402e-05,0.000145994,0.722525,361194,OA any,Diagnoses - main ICD10: M15 Polyarthrosis
+ebi-a-GCST90093109,Type ii diabetes,12,48403765,rs11168351,A,G,0.0126,0.0232,0.0674,0.7302,50533,T2D,Type ii diabetes
+ebi-a-GCST90013974,Body mass index (UKB data field 21001),12,48238837,rs7975232,A,C,,-0.000660795,0.00206902,0.749442,407609,BMI,Body mass index (UKB data field 21001)
+ebi-a-GCST90095034,Body mass index,12,48403765,rs11168351,A,G,0.2754,0.0023,0.0072,0.749899,56161,BMI,Body mass index
+ebi-a-GCST90013870,Body mass index (UKB data field 21001),12,48238837,rs7975232,A,C,,-0.000654841,0.00206865,0.751581,407609,BMI,Body mass index (UKB data field 21001)
+ebi-a-GCST90019446,C-reactive protein measurement,12,48403765,rs11168351,A,G,0.3776,-0.0043,0.0137,0.7536,10708,CRP,C-reactive protein measurement
+ebi-a-GCST90103751,Body mass index,12,48403765,rs11168351,A,G,,-0.00453,0.01447,0.754201,21930,BMI,Body mass index
+ebi-a-GCST90026412,Severe autoimmune type 2 diabetes,12,48238837,rs7975232,A,C,0.533,-0.0229267,0.0738458,0.756202,3196,T2D,Severe autoimmune type 2 diabetes
+ukb-e-4105_CSA,Heel bone mineral density (BMD) (left),12,48403765,rs11168351,A,G,0.4311,0.005658,0.0189,0.7647,,BMD,Heel bone mineral density (BMD) (left)
+ukb-e-78_p1_CSA,"Heel bone mineral density (BMD) T-score, automated",12,48238837,rs7975232,A,C,0.5728,0.008338,0.02797,0.765701,,BMD,"Heel bone mineral density (BMD) T-score, automated"
+ebi-a-GCST90018730,C-reactive protein,12,48238837,rs7975232,A,C,0.318826,0.00147559,0.00501897,0.77,83025,CRP,C-reactive protein
+ukb-e-100021_AFR,Vitamin D,12,48238837,rs7975232,A,C,0.645,0.01502,0.05251,0.774801,,vitamin D,Vitamin D
+ebi-a-GCST90018947,Body mass index,12,48238837,rs7975232,A,C,0.461693,0.0005,0.0019,0.785899,359983,BMI,Body mass index
+ukb-e-4106_EAS,"Heel bone mineral density (BMD) T-score, automated (left)",12,48238837,rs7975232,A,C,0.3231,0.01098,0.04134,0.7905,,BMD,"Heel bone mineral density (BMD) T-score, automated (left)"
+ukb-d-COX_ARTHROSIS,Coxarthrosis [arthrosis of hip](FG),12,48238837,rs7975232,A,C,0.526445,-9.72346e-05,0.000373404,0.794555,361194,OA any,Coxarthrosis [arthrosis of hip](FG)
+ebi-a-GCST90018947,Body mass index,12,48403765,rs11168351,A,G,0.281988,-0.0006,0.0022,0.804,359983,BMI,Body mass index
+ieu-a-1169,Hip osteoarthritis,12,48403765,rs11168351,A,G,,0.00995033,0.0303449,0.80746,14275,OA hip,Hip osteoarthritis
+ebi-a-GCST90025982,Heel bone mineral density T score,12,48238837,rs7975232,A,C,0.525205,-0.000473806,0.00187059,0.81,445855,BMD,Heel bone mineral density T score
+ebi-a-GCST90103751,Body mass index,12,48238837,rs7975232,A,C,,-0.002505,0.01058,0.8128,21930,BMI,Body mass index
+ukb-e-50_EAS,Standing height,12,48403765,rs11168351,A,G,0.1594,-0.005733,0.02546,0.8219,,height,Standing height
+ukb-d-M48,Diagnoses - main ICD10: M48 Other spondylopathies,12,48403765,rs11168351,A,G,0.371631,-4.01691e-05,0.000182525,0.825813,361194,OA spine,Diagnoses - main ICD10: M48 Other spondylopathies
+ebi-a-GCST90029004,Heel bone mineral density,12,48238837,rs7975232,A,C,0.52676,-0.00047479,0.00187056,0.83,583314,BMD,Heel bone mineral density
+ebi-a-GCST007091,Osteoarthritis (hip),12,48238837,rs7975232,A,C,0.5264,-0.0025,0.0117,0.8335,393873,OA hip,Osteoarthritis (hip)
+ebi-a-GCST007091,Osteoarthritis (hip),12,48403765,rs11168351,A,G,0.3722,0.0025,0.0121,0.8351,393873,OA hip,Osteoarthritis (hip)
+ebi-a-GCST90095034,Body mass index,12,48238837,rs7975232,A,C,0.4605,0.0012,0.0059,0.8381,56161,BMI,Body mass index
+ebi-a-GCST90025959,C-reactive protein levels,12,48403765,rs11168351,A,G,0.37175,0.00032454,0.00205264,0.85,436939,CRP,C-reactive protein levels
+ukb-e-30890_MID,Vitamin D,12,48238837,rs7975232,A,C,0.6019,-0.007154,0.03845,0.8524,,vitamin D,Vitamin D
+ukb-e-30710_EAS,C-reactive protein,12,48238837,rs7975232,A,C,0.3153,-0.005201,0.02926,0.8589,,CRP,C-reactive protein
+ebi-a-GCST90013881,Osteoarthritis (Firth correction),12,48238837,rs7975232,A,C,,-0.00143225,0.00810527,0.85974,407746,OA any,Osteoarthritis (Firth correction)
+ebi-a-GCST90013931,Osteoarthritis (SPA correction),12,48238837,rs7975232,A,C,,-0.00143225,0.00810527,0.85974,407746,OA any,Osteoarthritis (SPA correction)
+ukb-e-30710_AFR,C-reactive protein,12,48403765,rs11168351,A,G,0.03474,0.007863,0.05304,0.8822,,CRP,C-reactive protein
+ebi-a-GCST90026412,Severe autoimmune type 2 diabetes,12,48403765,rs11168351,A,G,0.405,0.0100894,0.0759168,0.894272,3196,T2D,Severe autoimmune type 2 diabetes
+ebi-a-GCST90095033,Height,12,48238837,rs7975232,A,C,0.4703,0.0006,0.0052,0.9051,59771,height,Height
+ebi-a-GCST90026416,Mild age-related type 2 diabetes,12,48403765,rs11168351,A,G,0.405,-0.00417469,0.0407182,0.918345,5605,T2D,Mild age-related type 2 diabetes
+ukb-b-873,Fractured bone site(s): Spine,12,48403765,rs11168351,A,G,0.37175,1.02463e-05,0.000102251,0.92,460340,OA spine,Fractured bone site(s): Spine
+ebi-a-GCST90029070,C-reactive protein levels,12,48403765,rs11168351,A,G,,0.0002,0.002,0.9218,575531,CRP,C-reactive protein levels
+ukb-d-M47,Diagnoses - main ICD10: M47 Spondylosis,12,48238837,rs7975232,A,C,0.526445,-1.78201e-05,0.000183878,0.922796,361194,OA spine,Diagnoses - main ICD10: M47 Spondylosis
+ukb-e-740_CSA,Osteoarthrosis,12,48403765,rs11168351,A,G,0.4271,-0.006241,0.06478,0.9232,,OA any,Osteoarthrosis
+ukb-d-COX_ARTHROSIS,Coxarthrosis [arthrosis of hip](FG),12,48403765,rs11168351,A,G,0.371631,-3.67037e-05,0.000385841,0.924214,361194,OA any,Coxarthrosis [arthrosis of hip](FG)
+ukb-e-4105_AFR,Heel bone mineral density (BMD) (left),12,48403765,rs11168351,A,G,0.03625,-0.008178,0.08697,0.9251,,BMD,Heel bone mineral density (BMD) (left)
+ebi-a-GCST005810,Osteoarthritis of the hip (hospital diagnosed),12,48238837,rs7975232,A,C,0.521682,-0.0027561,0.0323374,0.932082,11989,OA hip,Osteoarthritis of the hip (hospital diagnosed)
+ukb-d-M13_ARTHROSIS,#Arthrosis,12,48238837,rs7975232,A,C,0.526445,4.47494e-05,0.000591607,0.939705,361194,OA any,#Arthrosis
+ebi-a-GCST90095038,Height,12,48238837,rs7975232,A,C,0.5585,-0.0002,0.0025,0.9478,350741,height,Height
+ebi-a-GCST005813,Osteoarthritis of the knee (hospital diagnosed),12,48238837,rs7975232,A,C,0.523511,-0.00106455,0.023781,0.964296,22347,OA knee,Osteoarthritis of the knee (hospital diagnosed)
+ukb-b-873,Fractured bone site(s): Spine,12,48238837,rs7975232,A,C,0.527119,-1.98243e-06,9.89709e-05,0.98,460340,OA spine,Fractured bone site(s): Spine
+ukb-e-78_p1_EAS,"Heel bone mineral density (BMD) T-score, automated",12,48238837,rs7975232,A,C,0.3154,0.001025,0.04141,0.9803,,BMD,"Heel bone mineral density (BMD) T-score, automated"
+ebi-a-GCST90019446,C-reactive protein measurement,12,48238837,rs7975232,A,C,0.5245,0.0002,0.0134,0.9905,10708,CRP,C-reactive protein measurement
+ukb-e-30890_EAS,Vitamin D,12,48403765,rs11168351,A,G,0.1558,-0.0001468,0.03307,0.9965,,vitamin D,Vitamin D
+ebi-a-GCST008053,Height,12,48238837,rs7975232,A,C,0.528856,-2.10422e-05,0.00576568,0.997088,22192,height,Height
+ebi-a-GCST005812,Osteoarthritis of the hip or knee (hospital diagnosed),12,48238837,rs7975232,A,C,0.522987,-3.66274e-05,0.0195586,0.998506,32970,OA hip,Osteoarthritis of the hip or knee (hospital diagnosed)
+ebi-a-GCST90038699,Arthritis (not osteoarthritis),12,48238837,rs7975232,A,C,0.528836,-3.78252e-07,0.000177603,1.0,484598,OA any,Arthritis (not osteoarthritis)

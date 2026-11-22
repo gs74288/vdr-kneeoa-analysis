@@ -99,8 +99,8 @@ for letter, ax, dx in (('A', axA, -0.20), ('B', axB, -0.30), ('C', axC, -0.34)):
     ax.text(dx, 1.04, letter, transform=ax.transAxes, fontsize=11, fontweight='bold',
             ha='left', va='bottom')
 
-png = os.path.join(OUT, 'Figure_2_3p.png')
-tif = os.path.join(OUT, 'Figure_2_3p.tif')
+png = os.path.join(OUT, 'Figure_2.png')
+tif = os.path.join(OUT, 'Figure_2.tif')
 fig.savefig(png, dpi=300)
 fig.savefig(tif, dpi=300)
 plt.close(fig)

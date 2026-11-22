@@ -68,7 +68,7 @@ def violin(ax, data_by_group, ylab, tag_p):
 
 
 def fmt_p(p):
-    return 'P < 0.001' if p < 0.001 else 'P = %.3f' % p
+    return ('P = %.1e' % p) if p < 0.001 else ('P = %.3f' % p)
 
 
 violin(axA, {'Normal': vdr[~m], 'OA': vdr[m]}, 'VDR (log2 expression)',
@@ -93,8 +93,8 @@ for letter, ax, dx in (('A', axA, -0.28), ('B', axB, -0.26), ('C', axC, -0.24)):
             ha='left', va='bottom')
 
 os.makedirs(OUT, exist_ok=True)
-png = os.path.join(OUT, 'Figure_5_new.png')
-tif = os.path.join(OUT, 'Figure_5_new.tif')
+png = os.path.join(OUT, 'Figure_5.png')
+tif = os.path.join(OUT, 'Figure_5.tif')
 fig.savefig(png, dpi=300)
 fig.savefig(tif, dpi=300)
 plt.close(fig)
