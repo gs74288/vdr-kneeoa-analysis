@@ -1,0 +1,7 @@
+sample,gsm,class,n,detected,pct
+Infla1,GSM8655601,macrophage-like,4645,1946,41.9
+Infla1,GSM8655601,fibroblast-like,2076,370,17.8
+Infla1,GSM8655601,other,291,14,4.8
+Infla2,GSM8655602,macrophage-like,5404,1136,21.0
+Infla2,GSM8655602,fibroblast-like,4375,325,7.4
+Infla2,GSM8655602,other,912,19,2.1
