@@ -1,0 +1,15 @@
+analysis,item,value
+H3K27ac peak overlap,80 GW-significant variants,7/80 (8.8%)
+H3K27ac peak overlap,all interval variants,808/17121 (4.7%)
+H3K27ac peak overlap,Fisher OR / P,1.94 / 0.104
+H3K27ac coverage,VDR TSS +/-5kb,14.3%
+H3K27ac coverage,COL2A1 TSS +/-5kb,0.0%
+H3K27ac coverage,rs7975232 +/-5kb,0.0%
+H3K27ac coverage,rs11168351 +/-5kb,0.0%
+Hi-C 5kb,VDR x COL2A1 block median O/E,1.080
+Hi-C 5kb,sentinel pair (167.5kb) O/E,1.55
+Hi-C 5kb,100-200kb band target median,1.128
+Hi-C 5kb,100-200kb band control median,1.282
+Hi-C 5kb,target vs control MWU P,0.00033
+Hi-C 5kb,source,"GSE260760, BP_2500-5000 zoom, remote straw via juicer_tools 2.20.00"
+H3K27ac,source,GSE188124 ENCFF977PXG pseudoreplicated peaks GRCh38
