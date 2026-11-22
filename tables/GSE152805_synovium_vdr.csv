@@ -1,0 +1,8 @@
+donor,cell_class,n,detected,pct
+113,macrophage,445,52,11.7
+113,fibroblast,4647,217,4.7
+116,macrophage,421,56,13.3
+116,fibroblast,3462,288,8.3
+118,macrophage,584,49,8.4
+118,fibroblast,1048,36,3.4
+118,other,22,0,0.0
