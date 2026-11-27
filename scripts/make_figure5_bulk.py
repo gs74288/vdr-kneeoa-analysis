@@ -19,7 +19,11 @@ OUT = r"C:\Users\liuha\Desktop\孟德尔\revision_20261002\submission_PeerJ_v2_2
 AXIS = ["NLRP3", "PYCARD", "CASP1", "IL1B", "IL18", "GSDMD", "TXNIP", "AIM2", "NLRC4", "CASP8"]
 
 oa = pd.read_csv(os.path.join(BULK, 'GSE114007_OA_counts.txt.gz'), sep='\t', index_col=0)
+oa = oa.loc[:, [c for c in oa.columns if not str(c).strip().lower().startswith(('average', 'max'))]]
+
 nm = pd.read_csv(os.path.join(BULK, 'GSE114007_normal_counts.txt.gz'), sep='\t', index_col=0)
+nm = nm.loc[:, [c for c in nm.columns if not str(c).strip().lower().startswith(('average', 'max'))]]
+
 print('OA', oa.shape, '| Normal', nm.shape)
 
 X = pd.concat([oa, nm], axis=1)

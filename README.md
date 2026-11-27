@@ -1,6 +1,8 @@
 # VDR and knee osteoarthritis: analysis code
 
-Code and summary tables supporting the manuscript *"Limited genetic support for a causal role of VDR expression in knee osteoarthritis: COL2A1 attribution and regulatory/repair-like chondrocyte localisation"*.
+Code and summary tables supporting the manuscript *"Four independent designs converge against a causal role for VDR expression in knee osteoarthritis"*.
+
+`scripts/` contains only analyses that produced reported results. Analyses that were run but not reported live in `exploratory/not_reported/`, each with a note on why it was excluded.
 
 ## Data sources (all public)
 
@@ -38,7 +40,11 @@ Code and summary tables supporting the manuscript *"Limited genetic support for 
 16. **Nuclear-receptor cis-MR screen** (48 receptors, 300 kb window, 1 Mb distance pruning) — `nr48_map.py`, `nr48_mr_screen.py`
 17. **Paired synovium analysis** (Leiden clustering and marker annotation) — `gse152805_synovium_paired.py`
 18. **scDRS specificity control** (OA, FinnGen arthrosis, FinnGen T2D gene sets) — `scdrs_control.py`, `finngen_genez.py`
-19. OpenGWAS API helpers — `fetch_region.py`, `fetch_opengwas.py`
+19. **LINCS connectivity of the RepC signature** (150-gene donor-state pseudobulk signature against L1000 Chem Pert Consensus via Enrichr/gseapy) — `lincs_repc_connectivity.py`
+20. **Mechanism-of-action family enrichment** (six predefined families x two directions, prerank with 2,000 permutations, BH-FDR across 12 sets) — `lincs_moa_family_enrichment.py`
+21. **Calcitriol-response gene overlap and decoupling in bulk cartilage** (calcitriol/ercalcitriol/alfacalcidol-induced genes, VDR-target check, per-gene correlation with VDR in GSE114007) — `calcitriol_overlap_GSE114007.py`, `calcitriol_score_normal_only.py`
+22. **Figure 7** — `make_figure7_moa_decoupling.py`
+23. OpenGWAS API helpers — `fetch_region.py`, `fetch_opengwas.py`
 
 R 4.4.3; TwoSampleMR, coloc, Seurat 5, ieugwasr, data.table, scTenifoldKnk. Python 3.11; scdrs 1.0.2, scanpy, anndata.
 
@@ -57,6 +63,8 @@ R 4.4.3; TwoSampleMR, coloc, Seurat 5, ieugwasr, data.table, scTenifoldKnk. Pyth
 - **Synovium**: in paired synovium from the three GSE152805 donors, VDR was detected in 7.9-13.7% of macrophage-cluster cells and 4.2-8.4% of fibroblast-cluster cells (higher in macrophages in all three donors); two further inflamed samples gave 41.9% vs 17.8% and 21.0% vs 7.4%.
 - **Localisation specificity**: projecting control gene sets onto GSE324993 showed that the repair-like state (RepC) is disease-specific (positive in 6/6 donors for knee OA, 5/6 for FinnGen arthrosis, 0/6 for type 2 diabetes), whereas the regulatory compartment (RegC) is positive for all three traits and is therefore not disease-specific.
 - **COL2A1 weight sign**: gene weights in scDRS are signed gene-level z-scores, so COL2A1 (z = -4.97) contributes positively where its expression is low; RegC has the lowest COL2A1 expression of any state.
+- **Mechanism-of-action connectivity (exploratory)**: VDR agonists were positively connected to the RepC signature (signed enrichment score +1.51, FDR = 0.038) and SRC inhibitors in the reverse direction (-1.74, FDR = 0.004), whereas ROCK and YAP/TEAD inhibitors were not (FDR = 0.72 and 0.82; 12 family-direction sets). MEK inhibitors scored +1.75 (FDR = 0.008) but are treated as a generic stress response, and TGF-beta inhibitors were marginal (-1.51, FDR = 0.050).
+- **Transcriptional decoupling in bulk cartilage**: six genes were induced by both calcitriol and ercalcitriol in LINCS and overlapped the RepC signature (GPX3, IGFBP3, MGP, PLPP3, PTGIS, TXNRD1), of which one is a curated VDR target. In GSE114007 the five genes measurable there (PLPP3 undetected) were inversely correlated with VDR in the 20 OA samples (rho = -0.46, P = 0.041) and in the 18 normal samples (rho = -0.53, P = 0.025), the opposite direction to the cell-line connectivity. This analysis is exploratory: LINCS signatures are cell-line consensus profiles and transcriptional similarity is not pharmacological causation.
 
 ## Pitfalls encountered (worth knowing before re-running)
 
